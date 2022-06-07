@@ -121,12 +121,12 @@ TextureImporter:
       name: Bottom0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 131
-        width: 60
-        height: 60
+        x: 1
+        y: 129
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,12 +142,12 @@ TextureImporter:
       name: Bottom1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 131
-        width: 60
-        height: 60
+        x: 65
+        y: 129
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: Bottom2
       rect:
         serializedVersion: 2
-        x: 131
-        y: 132
-        width: 60
-        height: 60
+        x: 129
+        y: 129
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: Bottom3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 66
-        width: 60
-        height: 60
+        x: 1
+        y: 65
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: Bottom4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 66
-        width: 60
-        height: 60
+        x: 65
+        y: 65
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: Bottom5
       rect:
         serializedVersion: 2
-        x: 131
-        y: 67
-        width: 60
-        height: 60
+        x: 129
+        y: 65
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,10 +249,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1
         y: 1
-        width: 60
-        height: 60
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: Bottom7
       rect:
         serializedVersion: 2
-        x: 66
+        x: 65
         y: 1
-        width: 60
-        height: 60
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: Bottom8
       rect:
         serializedVersion: 2
-        x: 131
+        x: 129
         y: 1
-        width: 60
-        height: 60
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

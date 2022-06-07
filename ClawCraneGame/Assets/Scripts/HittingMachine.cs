@@ -6,6 +6,7 @@ public class HittingMachine : MonoBehaviour
 {
     [SerializeField] bool mouseHover = false;
     public GameObject machine;
+    public GameObject hitGroup;
 
     public Transform cam;
     public float shake;
@@ -16,10 +17,16 @@ public class HittingMachine : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        hitGroup.SetActive(false);
         machineXYZ = machine.GetComponent<Transform>();
-        
+        StartCoroutine(hitingNotice());
     }
 
+    IEnumerator hitingNotice()
+    {
+        yield return new WaitForSeconds(15f);
+        hitGroup.SetActive(true);
+    }
     // Update is called once per frame
     void Update()
     {

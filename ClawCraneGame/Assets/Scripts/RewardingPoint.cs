@@ -32,7 +32,7 @@ public class RewardingPoint : MonoBehaviour
 
     IEnumerator textTime()
     {
-        rewardingText.text = "这是……" + rewardName + "？！";
+        rewardingText.text = "……抓到了" + rewardName + "……";
         yield return new WaitForSeconds(3f);
         rewardingText.text = "";
     }

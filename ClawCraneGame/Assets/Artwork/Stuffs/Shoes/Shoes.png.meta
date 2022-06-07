@@ -121,12 +121,12 @@ TextureImporter:
       name: Shoes0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 131
-        width: 60
-        height: 60
+        x: 1
+        y: 129
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,11 +143,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 66
-        y: 131
-        width: 60
-        height: 60
+        y: 129
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: Shoes2
       rect:
         serializedVersion: 2
-        x: 131
-        y: 132
-        width: 60
-        height: 60
+        x: 129
+        y: 129
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: Shoes3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 66
-        width: 60
-        height: 60
+        x: 1
+        y: 65
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: Shoes4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 66
-        width: 60
-        height: 60
+        x: 65
+        y: 65
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: Shoes5
       rect:
         serializedVersion: 2
-        x: 131
-        y: 67
-        width: 60
-        height: 60
+        x: 129
+        y: 65
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,69 +239,6 @@ TextureImporter:
       bones: []
       spriteID: bdacb51e6b8f87a50800000000000000
       internalID: 6519233924967418587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shoes6
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b256bdda3448dacd0800000000000000
-      internalID: -2545232788179950293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shoes7
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 1
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3c571ff909cc92a0800000000000000
-      internalID: -6729282698426753988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shoes8
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 1
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be02e58c312b87c60800000000000000
-      internalID: 7816192951337230571
       vertices: []
       indices: 
       edges: []

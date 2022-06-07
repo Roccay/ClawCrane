@@ -57,7 +57,7 @@ public class ClawControl : MonoBehaviour
     {
         autoControl = true;
         time = 0;
-
+        machineXYZ.position = new Vector2(0, -2.21f);
         //putting down
         while (time < downTime)
         {
@@ -92,7 +92,7 @@ public class ClawControl : MonoBehaviour
                 yield return new WaitForSeconds(0.01f);
             }
         }
-        clawsOpen = false;
+
             yield return new WaitForSeconds(0.5f);
 
 
@@ -119,7 +119,7 @@ public class ClawControl : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
         yield return new WaitForSeconds(0.05f);
-
+        clawsOpen = false;
         Debug.Log("releasing");
         //opening the claw again
         if (!clawsOpen)
@@ -146,8 +146,11 @@ public class ClawControl : MonoBehaviour
 
     public void Grab()
     {
-        Debug.Log("start grabing");
-        StartCoroutine(GrabWaitTime());
+        if (!autoControl)
+        {
+            Debug.Log("start grabing");
+            StartCoroutine(GrabWaitTime());
+        }
 
     }
 
@@ -155,7 +158,7 @@ public class ClawControl : MonoBehaviour
     {
         if(collision.gameObject.layer == 7)
         {
-            Debug.Log("hit!");
+            Debug.Log("hit!" + collision.gameObject.name);
             touchingStuff = true;
         }
 
